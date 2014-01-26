@@ -278,7 +278,7 @@ class MultiAuthBridge extends \AuthPlugin {
         // Check if we are connected to the database.
         if (!$fresMySQLConnection) {
             $this->mySQLError('There was a problem when connecting to the phpBB database.<br />' .
-                    'Check your Host('.$connection->getHost().'), Username('.$connection->getUser().'), and Password('.$connection->getPassword().') settings.<br />');
+                    'Check your Host('.$connection->getHost().'), Username('.$connection->getUser().'), and Password settings.<br />');
         }
 
         // Select Database
